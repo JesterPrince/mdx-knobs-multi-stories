@@ -1,0 +1,26 @@
+{
+  "name": "knobs-in-mdx-demo",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "start-storybook -p 9050 -s public",
+    "build": "build-storybook -c .storybook -s src"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@material-ui/core": "^4.9.5",
+    "@mdx-js/loader": "^1.5.7",
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "@storybook/source-loader": "^5.3.14",
+    "babel-loader": "^8.0.6",
+    "react-is": "^16.12.0"
+  }
+}

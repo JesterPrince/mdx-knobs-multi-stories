@@ -1,0 +1,29 @@
+import { Meta, Preview, Story, Props, Source, SourceState } from '@storybook/addon-docs/blocks';
+import { number, select } from "@storybook/addon-knobs";
+import { CircularProgress } from '@material-ui/core';
+
+<Meta title="CircularProgress" component={CircularProgress} />
+
+# Circular Progress
+
+<Preview>
+  <Story name="Standard">
+    <CircularProgress />
+  </Story>
+</Preview>
+
+<Props of={CircularProgress} />
+
+### Thickness
+
+<Preview withSource={SourceState.NONE}>
+  <Story name="Thick">
+    <CircularProgress thickness={number("Thickness", 5)} size={number("Size", 100)} />
+  </Story>
+  <Story name="Thicker">
+    <CircularProgress thickness={number("Thickness", 10)} size={number("Size", 100)} />
+  </Story>
+  <Story name="Thickest">
+    <CircularProgress thickness={number("Thickness", 15)} size={number("Size", 100)} />
+  </Story>
+</Preview>
