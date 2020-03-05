@@ -1,5 +1,8 @@
-## Running Storybook
+## Running Storybook Demo
 
-* `yarn` to install dependencies globally
-* `yarn build:packages` build all package dependencies (ui-react, theme)
-* `yarn start:react` or `yarn start:vue` to start a single Storybook instance individually
+* `yarn` to install dependencies
+* `yarn start` to run the application on port 9050
+
+## Issues Demo
+
+* I am seeing issues when running stories with the same component multiple times using knobs inside of MDX/doc addon stories
